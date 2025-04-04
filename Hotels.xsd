@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="https://www.public.asu.edu/~dapined2"
+targetNamespace="https://www.public.asu.edu/~dapined2"
+elementFormDefault="qualified">
+
+	<!-- Root element -->
+	<xsd:element name="Hotels">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element name="Hotel" minOccurs="10" maxOccurs="unbounded">
+					<xsd:complexType>
+						<xsd:sequence>
+							<!-- Name element -->
+							<xsd:element name="Name" type="xsd:string" minOccurs="1" maxOccurs="1"/>
+
+							<!-- Phone element (multiple occurrences allowed) -->
+							<xsd:element name="Phone" type="xsd:string" minOccurs="1"  maxOccurs="unbounded"/>
+							<!-- Address element with sub-elements -->
+							<xsd:element name="Address">
+								<xsd:complexType>
+									<xsd:sequence>
+										<xsd:element name="Number" type="xsd:string" minOccurs="1" maxOccurs="1"/>
+										<xsd:element name="Street" type="xsd:string" minOccurs="1" maxOccurs="1"/>
+										<xsd:element name="City" type="xsd:string" minOccurs="1" maxOccurs="1"/>
+										<xsd:element name="State" type="xsd:string" minOccurs="1" maxOccurs="1"/>
+										<xsd:element name="Zip" type="xsd:string" minOccurs="1" maxOccurs="1"/>
+									</xsd:sequence>
+									<!-- Nearest Airport (optional element) -->
+									<xsd:attribute name="NearestAirport" type="xsd:string" use="optional"/>
+								</xsd:complexType>
+							</xsd:element>
+						</xsd:sequence>
+						<!-- Rating attribute (optional) -->
+						<xsd:attribute name="Rating" type="xsd:string" use="optional"/>
+					</xsd:complexType>
+				</xsd:element>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+</xsd:schema>

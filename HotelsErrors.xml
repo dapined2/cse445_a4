@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Hotel>
+	<!-- Error #1: Root element name should be "Hotels" -->
+	<Hotel Rating="4.2">
+		<!-- Default -->
+		<Name>Westin</Name>
+		<Phone>480-968-8885</Phone>
+		<Phone>800-937-8461</Phone>
+		<Address>
+			<Number>11</Number>
+			<Street>E 7th St</Street>
+			<City>Tempe</City>
+			<State>AZ</State>
+			<Zip>85281</Zip>
+			<NearstAirport>Sky Harbor</NearstAirport>
+		</Address>
+
+	</Hotel>
+	<Hotel Rating="4.5">
+		<!-- Hotel 1 -->
+		<!-- Error #2: required attribute is missing -->
+		<Phone>012-235-6789</Phone>
+		<Phone>987-654-3210</Phone>
+		<Address>
+			<Number>123</Number>
+			<Street>Mountain</Street>
+			<City>Zubrowka</City>
+			<State>Republic of Zubrowka</State>
+			<Zip>10017</Zip>
+			<NearestAirport>JFK International Airport</NearestAirport>
+		</Address>
+	</Hotel>
+
+	<Hotel>
+		<!-- Hotel 2 -->
+		<Name>Disneyworld Resort</Name>
+		<!-- Error 3: A Phone element is missing on one of the hotel-->
+		<Address>
+			<Number>200</Number>
+			<Street>Beach Drive</Street>
+			<City>Miami</City>
+			<State>FL</State>
+			<Zip>33139</Zip>
+			<NearestAirport>Miami International Airport</NearestAirport>
+		</Address>
+	</Hotel>
+
+	<Hotel Rating="4.0">
+		<!-- Hotel 3 -->
+		<Name>Mountain Lodge</Name>
+		<Phone>970-555-0122</Phone>
+		<Address>
+			<Number>350</Number>
+			<Street>Highlands Rd</Street>
+			<City>Aspen</City>
+			<State>CO</State>
+			<Zip>81611</Zip>
+			<!-- Error 4: An Address elect has no closing tag -->
+		</Hotel>
+
+	<Hotel>
+		<!-- Hotel 4 -->
+		<!-- Error 5: Two names are provided for one of the hotels -->
+		<Name>Oasis Hotel</Name>
+		<Name>Oasis Hotel</Name>
+		<Phone>602-555-0148</Phone>
+		<Phone>602-555-0195</Phone>
+		<Address>
+			<Number>525</Number>
+			<Street>Cactus Ave</Street>
+			<City>Phoenix</City>
+			<State>AZ</State>
+			<Zip>85001</Zip>
+			<NearestAirport>Phoenix Sky Harbor Airport</NearestAirport>
+		</Address>
+	</Hotel>
+
+	<Hotel Rating="3.8">
+		<!-- Hotel 5 -->
+		<Name>Sunset Inn</Name>
+		<Phone>213-555-0133</Phone>
+		<Address>
+			<Number>789</Number>
+			<Street>Sunset Blvd</Street>
+			<City>Los Angeles</City>
+			<State>CA</State>
+			<Zip>90028</Zip>
+		</Address>
+	</Hotel>
+
+	<Hotel Rating="5.0">
+		<!-- Hotel 6 -->
+		<Name>Lakeview Retreat</Name>
+		<Phone>312-555-0177</Phone>
+		<Address>
+			<Number>45</Number>
+			<Street>Lake Shore Drive</Street>
+			<City>Chicago</City>
+			<State>IL</State>
+			<Zip>60611</Zip>
+			<NearestAirport>O'Hare International Airport</NearestAirport>
+		</Address>
+	</Hotel>
+
+	<Hotel>
+		<Name>The Capitol</Name>
+		<!-- Hotel 7 -->
+		<Phone>202-555-0123</Phone>
+		<Phone>202-555-0456</Phone>
+		<Address>
+			<Number>400</Number>
+			<Street>Constitution Ave NW</Street>
+			<City>Washington</City>
+			<State>DC</State>
+			<Zip>20001</Zip>
+			<NearestAirport>Reagan National Airport</NearestAirport>
+		</Address>
+	</Hotel>
+
+	<Hotel Rating="4.3">
+		<!-- Hotel 8 -->
+		<Name>Forest Cabin Resort</Name>
+		<Phone>503-555-0100</Phone>
+		<Address>
+			<Number>88</Number>
+			<Street>Pinewood Rd</Street>
+			<City>Portland</City>
+			<State>OR</State>
+			<Zip>97209</Zip>
+		</Address>
+	</Hotel>
+
+	<Hotel Rating="4.2">
+		<!-- Hotel 9 -->
+		<Name>Downtown Suites</Name>
+		<Phone>617-555-0178</Phone>
+		<Address>
+			<Number>501</Number>
+			<Street>Charles St</Street>
+			<City>Boston</City>
+			<State>MA</State>
+			<Zip>02114</Zip>
+			<NearestAirport>Logan International Airport</NearestAirport>
+		</Address>
+	</Hotel>
+</Hotels>

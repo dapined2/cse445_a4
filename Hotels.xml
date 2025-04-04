@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Hotels xmlns="https://www.public.asu.edu/~dapined2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://www.public.asu.edu/~dapined2 https://www.public.asu.edu/~dapined2/Hotels.xsd">
+	<Hotel Rating="4.2">
+		<Name>Westin</Name>
+		<Phone>480-968-8885</Phone>
+		<Phone>800-937-8461</Phone>
+		<Address NearstAirport="Sky Harbor">
+			<Number>11</Number>
+			<Street>E.7th St</Street>
+			<City>Tempe</City>
+			<State>AZ</State>
+			<Zip>85281</Zip>
+		</Address>
+	</Hotel>
+
+	<Hotel Rating="3.9">
+		<Name>Hilton Garden Inn</Name>
+		<Phone>602-555-1234</Phone>
+		<Address NearstAirport="Phoenix Airport">
+			<Number>120</Number>
+			<Street>N 2nd St</Street>
+			<City>Phoenix</City>
+			<State>AZ</State>
+			<Zip>85004</Zip>
+		</Address>
+	</Hotel>
+
+	<Hotel>
+		<Name>Motel 6</Name>
+		<Phone>480-111-2222</Phone>
+		<Address NearstAirport="Sky Harbor">
+			<Number>999</Number>
+			<Street>Broadway Rd</Street>
+			<City>Tempe</City>
+			<State>AZ</State>
+			<Zip>85282</Zip>
+		</Address>
+	</Hotel>
+
+	<Hotel Rating="4.5">
+		<Name>Marriott</Name>
+		<Phone>602-765-8888</Phone>
+		<Phone>602-765-9999</Phone>
+		<Address NearstAirport="Phoenix-Mesa Gateway">
+			<Number>45</Number>
+			<Street>Central Ave</Street>
+			<City>Phoenix</City>
+			<State>AZ</State>
+			<Zip>85012</Zip>
+		</Address>
+	</Hotel>
+
+	<Hotel Rating="4.0">
+		<Name>Hyatt Regency</Name>
+		<Phone>480-321-0000</Phone>
+		<Address NearstAirport="Sky Harbor">
+			<Number>1</Number>
+			<Street>Mill Ave</Street>
+			<City>Tempe</City>
+			<State>AZ</State>
+			<Zip>85281</Zip>
+		</Address>
+	</Hotel>
+
+	<Hotel>
+		<Name>Comfort Inn</Name>
+		<Phone>623-456-7890</Phone>
+		<Address NearstAirport="Phoenix Airport">
+			<Number>200</Number>
+			<Street>Sunset Blvd</Street>
+			<City>Glendale</City>
+			<State>AZ</State>
+			<Zip>85301</Zip>
+		</Address>
+	</Hotel>
+
+	<Hotel Rating="4.1">
+		<Name>DoubleTree</Name>
+		<Phone>602-300-1000</Phone>
+		<Phone>602-300-2000</Phone>
+		<Address NearstAirport="Sky Harbor">
+			<Number>85</Number>
+			<Street>Jefferson St</Street>
+			<City>Phoenix</City>
+			<State>AZ</State>
+			<Zip>85003</Zip>
+		</Address>
+	</Hotel>
+
+	<Hotel Rating="3.5">
+		<Name>Best Western</Name>
+		<Phone>520-222-3333</Phone>
+		<Address NearstAirport="Tucson Airport">
+			<Number>77</Number>
+			<Street>Grant Rd</Street>
+			<City>Tucson</City>
+			<State>AZ</State>
+			<Zip>85719</Zip>
+		</Address>
+	</Hotel>
+
+	<Hotel>
+		<Name>La Quinta</Name>
+		<Phone>602-333-4444</Phone>
+		<Address NearstAirport="Sky Harbor">
+			<Number>10</Number>
+			<Street>Baseline Rd</Street>
+			<City>Tempe</City>
+			<State>AZ</State>
+			<Zip>85283</Zip>
+		</Address>
+	</Hotel>
+
+	<Hotel Rating="4.3">
+		<Name>Embassy Suites</Name>
+		<Phone>602-789-1010</Phone>
+		<Phone>602-789-2020</Phone>
+		<Address NearstAirport="Phoenix Airport">
+			<Number>230</Number>
+			<Street>Van Buren St</Street>
+			<City>Phoenix</City>
+			<State>AZ</State>
+			<Zip>85004</Zip>
+		</Address>
+	</Hotel>
+</Hotels>
