@@ -32,7 +32,7 @@
 	</Hotel>
 
 	<Hotel>
-		<!-- Hotel 2 -->
+		<!-- Hotel 2 error-->
 		<Name>Disneyworld Resort</Name>
 		<!-- Error 3: A Phone element is missing on one of the hotel-->
 		<Address>
@@ -46,7 +46,7 @@
 	</Hotel>
 
 	<Hotel Rating="4.0">
-		<!-- Hotel 3 -->
+		<!-- Hotel 3 error -->
 		<Name>Mountain Lodge</Name>
 		<Phone>970-555-0122</Phone>
 		<Address>
@@ -55,7 +55,7 @@
 			<City>Aspen</City>
 			<State>CO</State>
 			<Zip>81611</Zip>
-			<!-- Error 4: An Address elect has no closing tag -->
+			<!-- Error 4: An Address is missing so it doesnt close-->
 		</Hotel>
 
 	<Hotel>
@@ -104,7 +104,7 @@
 
 	<Hotel>
 		<Name>The Capitol</Name>
-		<!-- Hotel 7 -->
+		<!-- Hotel 7 error -->
 		<Phone>202-555-0123</Phone>
 		<Phone>202-555-0456</Phone>
 		<Address>
@@ -118,7 +118,7 @@
 	</Hotel>
 
 	<Hotel Rating="4.3">
-		<!-- Hotel 8 -->
+		<!-- Hotel 8 error-->
 		<Name>Forest Cabin Resort</Name>
 		<Phone>503-555-0100</Phone>
 		<Address>
@@ -131,7 +131,7 @@
 	</Hotel>
 
 	<Hotel Rating="4.2">
-		<!-- Hotel 9 -->
+		<!-- Hotel 9 error-->
 		<Name>Downtown Suites</Name>
 		<Phone>617-555-0178</Phone>
 		<Address>
@@ -143,4 +143,5 @@
 			<NearestAirport>Logan International Airport</NearestAirport>
 		</Address>
 	</Hotel>
+	<!-- Error ensures that Hotel and Hotel doesnt close 
 </Hotels>
