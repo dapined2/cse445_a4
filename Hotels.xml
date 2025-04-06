@@ -1,28 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Hotels xmlns="https://www.public.asu.edu/~dapined2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://www.public.asu.edu/~dapined2 https://www.public.asu.edu/~dapined2/Hotels.xsd">
-    <Hotel Rating="4.6">
-    <Name>The Copper Cactus</Name>
-    <Phone>928-555-0173</Phone>
-    <Phone>800-555-0199</Phone>
-    <Address NearestAirport="Flagstaff Pulliam Airport">
-        <Number>789</Number>
-        <Street>Sunset Ridge Rd</Street>
-        <City>Flagstaff</City>
-        <State>AZ</State>
-        <Zip>86001</Zip>
+    <Hotel>
+    <Name>Golden Gate Suites</Name>
+    <Phone>415-321-9999</Phone>
+    <Address NearestAirport="San Francisco International Airport">
+        <Number>222</Number>
+        <Street>Market St</Street>
+        <City>San Francisco</City>
+        <State>CA</State>
+        <Zip>94103</Zip>
     </Address>
     </Hotel>
 
-    <Hotel Rating="4.5">
-        <Name>Four Seasons</Name>
-        <Phone>602-535-1224</Phone>
-        <Address NearestAirport="Phoenix Airport">
-            <Number>120</Number>
-            <Street>N 2nd St</Street>
-            <City>Phoenix</City>
-            <State>AZ</State>
-            <Zip>85004</Zip>
-        </Address>
+    <Hotel Rating="4.0">
+    <Name>Green Hills Resort</Name>
+    <Phone>615-222-8888</Phone>
+    <Address NearestAirport="Nashville International Airport">
+        <Number>502</Number>
+        <Street>Belmont Blvd</Street>
+        <City>Nashville</City>
+        <State>TN</State>
+        <Zip>37212</Zip>
+    </Address>
     </Hotel>
 
     <Hotel>
@@ -40,7 +39,6 @@
     <Hotel Rating="4.1">
         <Name>Park Hyatt</Name>
         <Phone>602-745-8998</Phone>
-        <Phone>480-765-2222</Phone>
         <Address NearestAirport="Phoenix-Mesa Gateway">
             <Number>45</Number>
             <Street>Central Ave</Street>
@@ -77,7 +75,6 @@
     <Hotel Rating="4.1">
         <Name>DoubleTree</Name>
         <Phone>602-300-1000</Phone>
-        <Phone>602-300-2000</Phone>
         <Address NearestAirport="Sky Harbor">
             <Number>85</Number>
             <Street>Jefferson St</Street>
@@ -99,28 +96,28 @@
         </Address>
     </Hotel>
 
-    <Hotel>
-        <Name>Holiday Inn</Name>
-        <Phone>602-333-4114</Phone>
-        <Address NearestAirport="Sky Harbor">
-            <Number>10</Number>
-            <Street>Baseline Rd</Street>
-            <City>Tempe</City>
-            <State>AZ</State>
-            <Zip>85283</Zip>
-        </Address>
+    
+    <Hotel Rating="4.9">
+    <Name>Capitol Comfort</Name>
+    <Phone>202-333-5555</Phone>
+    <Address NearestAirport="Reagan National Airport">
+        <Number>800</Number>
+        <Street>Pennsylvania Ave NW</Street>
+        <City>Washington</City>
+        <State>DC</State>
+        <Zip>20004</Zip>
+    </Address>
     </Hotel>
 
-    <Hotel Rating="4.3">
-        <Name>Embassy Suites</Name>
-        <Phone>602-789-1010</Phone>
-        <Phone>602-789-2020</Phone>
-        <Address NearestAirport="Phoenix Airport">
-            <Number>230</Number>
-            <Street>Van Buren St</Street>
-            <City>Phoenix</City>
-            <State>AZ</State>
-            <Zip>85004</Zip>
-        </Address>
+    <Hotel>
+    <Name>Redwood Pines Lodge</Name>
+    <Phone>503-222-3333</Phone>
+    <Address NearestAirport="Portland International Airport">
+        <Number>240</Number>
+        <Street>Evergreen Pkwy</Street>
+        <City>Portland</City>
+        <State>OR</State>
+        <Zip>97229</Zip>
+    </Address>
     </Hotel>
 </Hotels>
